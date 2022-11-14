@@ -7,7 +7,7 @@ const inputString = process.argv[2];
 const langCode = franc(inputString);
 
 
-figlet('Languge Guesser', function (err, data) {
+figlet('L a n g u a g e G u e s s e r', function (err, data) {
     if (err) {
         console.log('Something went wrong...');
         console.dir(err);
